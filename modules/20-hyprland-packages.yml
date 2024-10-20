@@ -1,0 +1,46 @@
+name: hyprland-core
+type: apt
+source:
+  packages:
+    - hyprland
+    - hyprland-protocols
+    - hyprpaper
+    - hyprwayland-scanner
+    - hyprcursor-util
+    - xdg-desktop-portal-hyprland
+    # sddm
+    - sddm
+    - qt6ct
+    - qt6-svg-dev
+    - qt6-wayland
+    - qt6-5compat-dev
+    - qml-module-qtgraphicaleffects
+    - qml6-module-qt5compat-graphicaleffects 	
+    - qt5-style-kvantum
+    - qtwayland5
+    # cli
+    - trash-cli
+    - grim
+    - slurp
+    - udiskie
+    # others
+    - sway-notification-center
+    - pavucontrol
+    - wlogout
+    - cliphist
+    - tumbler
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - file-roller
+    - waybar
+    - rofi
+    - pamixer
+    - playerctl
+    - imv
+    - papirus-icon-theme
+    - wlr-randr
+    - wlsunset
+    - brightnessctl
+    - kanshi
+    - zenity

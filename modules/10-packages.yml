@@ -1,0 +1,38 @@
+name: packages
+type: apt
+source:
+  packages:
+    # new packages
+    - adb
+    - android-sdk-platform-tools
+    - vim
+    - neovim
+    # fonts
+    - fonts-font-awesome
+    - fonts-jetbrains-mono
+    - fonts-noto
+    - fonts-noto-cjk
+    # old packages
+    - locales-all
+    - openssl
+    - just
+    - fzf
+    - lshw
+    - net-tools
+    - nvme-cli
+    - powerstat
+    - smartmontools
+    - symlinks
+    - tcpdump
+    - traceroute
+    - tmux
+    - wireguard-tools
+    - neovim
+    - heif-gdk-pixbuf
+    - heif-thumbnailer
+    - webp-pixbuf-loader
+    - libheif1
+    - ffmpegthumbnailer
+    - ratbagd
+    - libapr1t64
+    - libaprutil1t64

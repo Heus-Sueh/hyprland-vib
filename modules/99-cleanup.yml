@@ -1,0 +1,9 @@
+name: cleanup2
+type: shell
+commands:
+  - apt-get autoremove -y
+  - apt-get clean
+  - lpkg --lock
+  - rm -rf /tmp/*
+  - rm -rf /var/tmp/*
+  - rm -rf /sources
