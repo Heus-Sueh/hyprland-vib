@@ -2,7 +2,12 @@ name: packages
 type: apt
 source:
   packages:
-    # new packages
+    # basic
+    - curl
+    - git
+    - ssh
+    - wget
+    - nano
     - dbus-daemon
     - adb
     - android-sdk-platform-tools
@@ -12,7 +17,6 @@ source:
     - fonts-jetbrains-mono
     - fonts-noto
     - fonts-noto-cjk
-    # old packages
     - locales-all
     - openssl
     - just

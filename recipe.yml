@@ -30,6 +30,6 @@ stages:
 
       # remote modules:
       # Sample GitHub remote module in the format: `gh:your-name/your-repo:branch:modules/file.yml`
-      - gh:vanilla-os/dev-image:main:modules/00-basics.yml 
-      - https://raw.githubusercontent.com/Vanilla-OS/dev-image/main/modules/05-go.yml # Sample full URL remote module
+      # - gh:vanilla-os/dev-image:main:modules/00-basics.yml 
+      # - https://raw.githubusercontent.com/Vanilla-OS/dev-image/main/modules/05-go.yml # Sample full URL remote module
 
