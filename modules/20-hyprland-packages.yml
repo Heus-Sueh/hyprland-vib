@@ -8,6 +8,31 @@ source:
     - hyprwayland-scanner
     - hyprcursor-util
     - xdg-desktop-portal-hyprland
+    - xwaylandvideobridge
+    - wl-clipboard
+    - lxpolkit
+    # term
+    - kitty
+    # bar
+    - waybar
+    # launcher
+    - rofi
+    # notification
+    - dunst 
+    # file manager
+    - thunar
+    - thunar-volman
+    - thunar-archive-plugin
+    - file-roller
+    # display
+    - wlr-randr
+    - wlsunset
+    - brightnessctl
+    - kanshi
+    - power-profiles-daemon
+    # vulkan
+    - vulkan-tools
+    - vulkan-validationlayers
     # sddm
     - sddm
     - qt6ct
@@ -19,28 +44,28 @@ source:
     - qt5-style-kvantum
     - qtwayland5
     # cli
+    - starship
+    - zoxide
+    - eza
+    - tealdeer
+    - fastfetch
+    - bat
+    - ripgrep
+    - fd-find
     - trash-cli
     - grim
     - slurp
     - udiskie
-    # others
-    - sway-notification-center
-    - pavucontrol
-    - wlogout
-    - cliphist
-    - tumbler
-    - thunar
-    - thunar-volman
-    - thunar-archive-plugin
-    - file-roller
-    - waybar
-    - rofi
-    - pamixer
     - playerctl
     - imv
-    - papirus-icon-theme
-    - wlr-randr
-    - wlsunset
-    - brightnessctl
-    - kanshi
+    - unrar
+    - grim
+    - slurp
     - zenity
+    # themes
+    - papirus-icon-theme
+    # others
+    - pavucontrol
+    - wlogout
+    - tumbler
+    - pamixer

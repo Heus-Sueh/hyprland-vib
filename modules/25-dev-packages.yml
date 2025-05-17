@@ -1,0 +1,15 @@
+name: packages
+type: apt
+source:
+  packages:
+    - dbus-x11
+    - genisoimage
+    - ddcutil
+    - evtest
+    - flatpak-builder
+    - zsh
+    - direnv
+    - rclone
+    - neovim
+    - libgtk-4-dev
+    - libwebkit2gtk-4.1-dev

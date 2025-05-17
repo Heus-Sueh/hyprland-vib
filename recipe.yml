@@ -20,6 +20,7 @@ stages:
     type: includes
     includes:
       - modules/00-initial-setup.yml
+      - modules/01-fsguard.yml
       - modules/05-shell.yml
       - modules/10-packages.yml
       - modules/20-hyprland-packages.yml

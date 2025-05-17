@@ -3,10 +3,10 @@ type: apt
 source:
   packages:
     # new packages
+    - dbus-daemon
     - adb
     - android-sdk-platform-tools
     - vim
-    - neovim
     # fonts
     - fonts-font-awesome
     - fonts-jetbrains-mono
@@ -27,7 +27,6 @@ source:
     - traceroute
     - tmux
     - wireguard-tools
-    - neovim
     - heif-gdk-pixbuf
     - heif-thumbnailer
     - webp-pixbuf-loader
